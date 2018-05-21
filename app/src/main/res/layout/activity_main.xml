@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.behavior.ming_yi.Behavior.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_get"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="View Data" />-->
+
+        <Button
+            android:id="@+id/btn_Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Data" />
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting Accessibility" />
+
+        <Button
+            android:id="@+id/del_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE DATA" />
+
+        <TextView
+            android:id="@+id/tv_checkstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="總筆數/已上傳\n0/0"
+            android:textAlignment="center" />
+
+
+        <ListView
+            android:id="@+id/lv_datalist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

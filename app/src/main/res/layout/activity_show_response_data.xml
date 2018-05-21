@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.behavior.ming_yi.Behavior.ShowResponseData">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:baselineAligned="false">
+
+        <TextView
+            android:id="@+id/response_txv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您正在看....."
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/txv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="tfidf"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/txv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="kcem"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/txv_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="kcemCluster"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/txv_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CFN-Vertex-Weight-TFIDF"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/txv_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CFN-Vertex-Degree"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/txv_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CFN-PageRank"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <TextView
+            android:id="@+id/error_txv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ErrorMsg"
+            android:textIsSelectable="false"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="279dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
